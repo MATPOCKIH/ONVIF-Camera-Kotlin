@@ -86,7 +86,7 @@ internal class AndroidSocketListener(
     }
 
     private companion object {
-        const val MULTICAST_DATAGRAM_SIZE = 2048
+        const val MULTICAST_DATAGRAM_SIZE = 4096
         const val MULTICAST_PORT = 3702
         const val MULTICAST_ADDRESS = "239.255.255.250"
         const val TAG = "AndroidSocketListener"
